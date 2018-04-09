@@ -1,9 +1,10 @@
 {
   "name": "zadanie_13_9",
   "version": "1.0.0",
-  "description": "",
+  "description": "Web Developer Bootcamp Kodilla node.js file server ;-)",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/ProjectKodilla/zadanie_13_9/issues"
   },
-  "homepage": "https://github.com/ProjectKodilla/zadanie_13_9#readme"
+  "homepage": "https://github.com/ProjectKodilla/zadanie_13_9#readme",
+  "dependencies": {
+    "colors": "^1.2.1",
+    "formidable": "^1.2.1",
+    "nodemon": "^1.17.3"
+  }
 }
