@@ -10,7 +10,7 @@ exports.upload = function (request, response) {
       'Content-Type': 'text/html'
     })
     response.write('received image:<br/>')
-    response.write("<img src='/show' />")
+    response.write("<img src='/test' />")
     response.end()
   })
 }
